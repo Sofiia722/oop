@@ -5,7 +5,7 @@ class PhoneCall:
         self.intercity_call = intercity_call
         self.international_call = international_call
 
-    # ����� ��� ���������� �������� ���� � ��������
+ 
     def calculate_total_with_tax(self):
         return (self.city_call + self.intercity_call + self.international_call) * 1.2
 
